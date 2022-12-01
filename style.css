@@ -16,6 +16,7 @@
     position:relative;
     top: 150px;
 }
+
 /*add animation*/
 .animate{
     animation: jump 0.3s linear;
@@ -40,7 +41,7 @@
 /*obstacle movement*/
 @keyframes block{
     0%{left: 500px}
-    100%{left: -20px}
+    100%{left: -10px}
 }
 p{
     text-align: center;

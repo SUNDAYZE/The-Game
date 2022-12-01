@@ -8,6 +8,7 @@ function jump(){
     setTimeout(function(){
         character.classList.remove("animate");
     },300);
+    
 }
 //intervals for jumping
 var checkDead = setInterval(function() {
